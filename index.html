@@ -5,20 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
     <title>login</title>
 </head>
 
 <body>
-    <div id="login">
-        <h2>login</h2>
-        <form action="#form">
-            <label>email <input type="email" name="email" id="e-mail"></label>
-            <label>senha <input type="password" name="senha" id="senha"></label>
-            <input type="submit" value="entrar">
-        </form>
+    <div class="todo">
+        <div id="login">
+            <h2>login</h2>
+            <form action="#form">
+
+                <label>e-mail<input type="email" name="email" id="e-mail"></label>
+
+
+                <label>senha<input type="password" name="senha" id="senha" required></label>
+
+
+
+                <div id="redes">
+                    <a href="#facebook"><img src="icons/face.png" alt="face"></a>
+                    <a href="#gmail"><img src="icons/mail.png" alt="gmail"></a>
+                    <a href="#twitter"><img src="icons/twitter.png" alt="twitter">
+                    </a>
+                </div>
+
+                <input type="submit" value="entrar" id="btn_entrar">
+            </form>
+        </div>
     </div>
 
-
+    <footer>isaias santos&copy;</footer>
 </body>
 
 </html>

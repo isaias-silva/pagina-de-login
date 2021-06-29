@@ -84,6 +84,8 @@
         }
     }
     
-    .explication {
-        display: none;
+    footer {
+        color: white;
+        position: relative;
+        top: 150px;
     }
