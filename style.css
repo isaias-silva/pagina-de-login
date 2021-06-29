@@ -1,0 +1,89 @@
+    body {
+        background-color: blue;
+        background-image: linear-gradient(to top, blue, purple);
+        height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    #login {
+        display: block;
+        background-color: aliceblue;
+        box-sizing: border-box;
+        width: 40%;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 4px 4px 4px black;
+    }
+    
+    #login label {
+        display: block;
+        margin: 10px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+    #login input {
+        display: block;
+        margin: auto;
+        width: 50%;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid black;
+        font-size: 20px;
+    }
+    
+    input#btn_entrar {
+        margin-top: 50px;
+        width: 30%;
+    }
+    
+    input#btn_entrar:hover {
+        animation: click;
+        animation-duration: 2s;
+        color: white;
+        background: rgb(76, 28, 172);
+    }
+    
+    #redes {
+        margin-top: 30px;
+    }
+    
+    #redes img {
+        width: 40px;
+    }
+    
+    #redes img:hover {
+        animation: animacao;
+        animation-duration: 2s;
+        filter: invert(80%)
+    }
+    
+    @keyframes animacao {
+        from {
+            filter: invert(0%)
+        }
+        to {
+            filter: invert(80%)
+        }
+    }
+    
+    @keyframes click {
+        from {
+            background: initial
+        }
+        to {
+            background: rgb(76, 28, 172);
+            color: white;
+        }
+    }
+    
+    .explication {
+        display: none;
+    }
