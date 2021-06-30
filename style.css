@@ -89,3 +89,59 @@
         position: relative;
         top: 150px;
     }
+    
+    @media screen and (max-width:600px) {
+        h2 {
+            font-size: 20px;
+        }
+        #login {
+            height: 250px;
+        }
+        #login input {
+            height: 18px;
+            font-size: 10px;
+        }
+        input#btn_entrar {
+            margin-top: 10px;
+            height: 30px;
+            font-size: 15px;
+        }
+        #redes img {
+            width: 20px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        #login label {
+            margin: 5px;
+            margin-top: 10px;
+        }
+    }
+    
+    @media screen and (max-width:495px) {
+        #login {
+            height: 250px;
+            width: 50%;
+        }
+        #login input {
+            height: 10px;
+            font-size: 9px;
+        }
+        #login label {
+            margin-top: 0;
+            font-size: 15px;
+        }
+        input#btn_entrar {
+            margin-top: 10px;
+            height: 30px;
+            font-size: 15px;
+        }
+        #redes img {
+            width: 20px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        #login label {
+            margin: 5px;
+            margin-top: 10px;
+        }
+    }
