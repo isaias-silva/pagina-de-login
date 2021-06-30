@@ -145,3 +145,32 @@
             margin-top: 10px;
         }
     }
+    
+    @media screen and (max-width:320px) {
+        #login {
+            height: 200px;
+            width: 60%;
+        }
+        #login input {
+            height: 10px;
+            font-size: 9px;
+            margin-top: 0;
+        }
+        #login label {
+            margin-top: 0;
+            font-size: 15px;
+        }
+        input#btn_entrar {
+            margin-top: 0;
+            height: 30px;
+            font-size: 15px;
+        }
+        #redes {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        #login label {
+            margin: 5px;
+            margin-top: 10px;
+        }
+    }
